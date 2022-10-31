@@ -1,0 +1,12 @@
+.link {
+  padding: 20px;
+  /* color: #AEB4BC !important; */
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.active {
+  color: #5445FF !important;
+  background: rgba(114, 102, 255, 0.1);
+  border-radius: 8px;
+}

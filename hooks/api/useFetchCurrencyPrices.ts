@@ -1,0 +1,15 @@
+import { useQuery } from '@tanstack/react-query';
+import { zkbasClient } from 'config/zkbasClient';
+
+// TODO: not total
+export const useFetchCurrencyPrices = () =>
+  useQuery(
+    ['getCurrencyPrices'],
+    async () => {
+      return await zkbasClient.getAssets(0, 50);
+    },
+    {
+      cacheTime: 10000,
+      staleTime: 30000,
+    },
+  );

@@ -1,0 +1,30 @@
+.h2 {
+  color: #1E2026;
+  font-weight: 400;
+  font-size: 12px;
+  border-bottom: 1px solid #76808F;
+  padding-bottom: 3px;
+}
+
+.h3 {
+  color: #76808F;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.token {
+  color: #76808F;
+  font-size: 12px;
+}
+
+.value {
+  color: #AEB4BC;
+  font-size: 10px;
+  text-align: right;
+  margin-top: 2px;
+}
+
+.gferr {
+  font-size: 10px;
+  color: #D9304E;
+}
